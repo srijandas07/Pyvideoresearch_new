@@ -1,0 +1,9 @@
+[submodule "external/Detectron.pytorch"]
+	path = external/Detectron.pytorch
+	url = git://github.com/roytseng-tw/Detectron.pytorch.git
+[submodule "external/ActivityNet"]
+	path = external/ActivityNet
+	url = git://github.com/gsig/ActivityNet.git
+[submodule "external/maskrcnn-benchmark"]
+	path = external/maskrcnn-benchmark
+	url = https://github.com/facebookresearch/maskrcnn-benchmark.git

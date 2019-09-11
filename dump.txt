@@ -1,0 +1,11 @@
+parsing arguments
+Logging to file /data/stars/share/charades/cache/test_resnet3d_50//log.txt
+{'name': 'test_resnet3d_50', 'resume': '', 'evaluate': False, 'cache_dir': '/data/stars/share/charades/cache/', 'metric': 'video_task_CharadesmAP', 'metrics': 'top1_metric;top5_metric', 'data': '/data/stars/share/charades/test', 'valdata': '/data/stars/share/charades/test', 'dataset': 'charades_video', 'train_file': '/data/stars/share/charades/Charades/Charades_v1_train.csv', 'val_file': '/data/stars/share/charades/Charades/Charades_v1_test.csv', 'label_file': '', 'temporal_segments': 3, 'arch': 'resnet50_3d', 'input_size': 224, 'dropout': 0, 'pretrained': True, 'pretrained_weights': '/data/stars/share/charades/pretrained/resnet50_rgb_python3.pth.tar', 'nclass': 157, 'wrapper': 'default_wrapper', 'criterion': 'default_criterion', 'features': 'fc', 'replace_last_layer': True, 'window_smooth': 0, 'workers': 36, 'print_freq': 1, 'world_size': 1, 'dist_url': 'tcp://224.66.41.62:23456', 'dist_backend': 'gloo', 'manual_seed': 0, 'no_logger': False, 'disable_cudnn_benchmark': True, 'disable_cudnn': True, 'cpu': False, 'optimizer': 'sgd', 'epochs': 2, 'start_epoch': 1, 'batch_size': 8, 'video_batch_size': 8, 'lr': 0.375, 'lr_decay_rate': '15,40', 'momentum': 0.9, 'weight_decay': 1e-07, 'balanceloss': False, 'freeze_batchnorm': False, 'train_size': 0.0, 'val_size': 1.0, 'accum_grad': 1, 'warmups': 0, 'synchronous': False, 'temporal_weight': 1.0, 'temporalloss_weight': 1.0, 'memory_decay': 0.9, 'memory_size': 20, 'sigma': 150, 'nhidden': 10, 'adjustment': False, 'originalloss_weight': 1, 'videoloss': False, 'freeze_head': False, 'freeze_base': False, 'decay': 0.9, 'finaldecay': 0.9, 'margin': 0.0, 'alignment': False, 'classifier_weight': 1.0, 'share_selector': False, 'normalize_per_video': False, 'distance': 'l2', 'tasks': 'video_task', 'video_metrics': 'charades_map_metric;videotop1_metric;videotop5_metric', 'actor_observer_classification_task_dataset': 'charades_ego_only_first', 'distributed': False, 'cache': '/data/stars/share/charades/cache/test_resnet3d_50/'}
+experiment folder: /data/stars/user/sdas/PyVideoResearch
+git hash: 46307b1
+inflating 2d resnet parameters
+yahi hon raha hai!
+skipping: module.fc.weight
+skipping: module.fc.bias
+loading pretrained-weights from /data/stars/share/charades/pretrained/resnet50_rgb_python3.pth.tar
+
